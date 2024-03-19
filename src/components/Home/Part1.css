@@ -1,0 +1,18 @@
+.makeGrid{
+    display: grid;
+    width: 100%;
+    grid-template-areas: "List Image Image Image Image";
+    height: 100%;
+}
+
+.List{
+    grid-area: List;
+    width: 100%;
+    height: 100%;
+}
+
+.Image{
+    grid-area: Image;
+    width: 100%;
+    height: 100%;
+}
